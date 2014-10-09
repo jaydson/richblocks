@@ -22,7 +22,7 @@
 
 	<window name="change_background"
 			title="Alterar Plano de Fundo"
-			description="Janela para alteração do plano de fundo"
+			description="Janela para alteracao do plano de fundo"
 			defaultTop="100"
 			defaultLeft="300"
 			defaultWidth="300"
