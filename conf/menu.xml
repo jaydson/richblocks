@@ -33,8 +33,8 @@
 		<dockmenu>
 			<option name="dock_option1_menu_1" value="Home" windowTarget="google" img="home.png"></option>
 			<option name="dock_option2_menu_1" value="E-mail" windowTarget="google" img="email.png"></option>
-			<option name="dock_option3_menu_1" value="HIstórico" windowTarget="google" img="history.png"></option>
-			<option name="dock_option4_menu_1" value="Calendário" windowTarget="google" img="calendar.png"></option>
+			<option name="dock_option3_menu_1" value="HIstorico" windowTarget="google" img="history.png"></option>
+			<option name="dock_option4_menu_1" value="Calendario" windowTarget="google" img="calendar.png"></option>
 			<option name="dock_option5_menu_1" value="Links" windowTarget="google" img="link.png"></option>
 			<option name="dock_option6_menu_1" value="Portifolio" windowTarget="google" img="portfolio.png"></option>
 			<option name="dock_option7_menu_1" value="RSS" windowTarget="google" img="rss.png"></option>

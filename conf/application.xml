@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!--
    Copyright 2008 Jaydson Gomes - RichBlocks  
    
@@ -21,7 +21,7 @@
 <application onload="loadPrefs">
 	<name>RichBlocks</name>
 	<version>1.0</version>
-	<comment>Aplicação Teste</comment>
+	<comment>Aplicacao Teste</comment>
 	<developer>Jaydson Gomes</developer>
 	<date>18/12/2008</date>
 	<icon>img/ico.gif</icon>
