@@ -1,0 +1,218 @@
+/* 
+	CSS SDK RichBlocks
+*/
+
+/*******************************
+	PLATAFORM
+*******************************/
+html{
+    overflow : hidden; 
+}
+table { 
+	border-collapse: collapse;
+}
+td {
+	padding-left : 4px;
+	padding-right : 5px;
+}
+
+.frame_bar_top{
+	width  : 100%;
+	height : 22px;
+	background : #34508E;
+	border : 1px outset #eeeeee;
+	position : absolute;
+	top: 0px;
+	left:0px;
+	padding-left : 5px;
+	font-weight: bold;
+	font-family:tahoma;
+	font-size: 12px;
+	padding-top : 3px;
+	color : #ffffff; 
+}
+
+.frame_menu{
+	width  : 100%;
+	height : 22px;
+	background : #D4D0C8;
+	border : 1px outset #eeeeee;
+	position : absolute;
+	top : 22px;
+	left : 0px;
+	padding-left : 5px;
+}
+.frame_submenu{	
+	width:100%;
+}
+
+.frame_navigator{	
+	width  : 250px;
+	height : 100%;
+	background : #D4D0C8;
+	border : 1px outset #eeeeee;
+	position:absolute;
+	float :left;
+}
+.frame_tabs{
+	width  : 100%;
+	height : 30px;
+	background : #D4D0C8;
+	border : 1px outset #eeeeee;
+	float :right;
+}
+
+.frame_buttons{	
+	position:absolute;
+	top:44px;
+	padding:2px;
+	background-color:#D4D0C8;
+	border:1px outset #eeeeee;
+	width:100%;
+	height:22px;
+}
+.frame_properties{		
+	width  : 100%;
+	height : 100%;
+	border : 1px outset #eeeeee;
+}
+.frame_layout{
+	width  : 250px;
+	height : 97%;
+	background : #D4D0C8;
+	border : 1px outset #eeeeee;
+	float: right;
+}
+.menu_properties{
+	font-size   : 12px;
+	font-weight : bold;	
+}
+.field_properties{
+	font-size : 12px;
+	border    : solid 1px blue;
+}
+
+.frame_minimizeds{
+	width:100%;
+	height:25px;
+	background : #D4D0C8;
+	border-top: 1px outset #eeeeee;
+	border-right: 1px outset #eeeeee;
+	position:absolute;
+}
+
+/*******************************
+	MENU
+*******************************/
+.menu_design{
+	padding:4px;
+	cursor:default;
+	float:left;
+	font-family:tahoma;
+	font-size:11px;		
+}
+.table_sub{
+	padding-left:3px;
+	padding-top:4px;
+	padding-right:4px;
+	padding-bottom:5px;
+	border-top:2px outset #eeeeee;
+	border-right:2px outset #eeeeee;
+	border-left:2px outset #eeeeee;
+	vertical-align:top;
+	background-color:#D4D0C8;
+	position:absolute;
+	z-index:10000000;
+	cursor:default;	
+	display :none;
+	-moz-opacity:0.0; 
+	filter: alpha(opacity=0);
+}
+.text_sub_menu{
+	height:22px;
+	font-family:tahoma;
+	font-size:11px;	
+	padding-left:5px;
+}
+.table_submenu_layout{
+	font-family:tahoma;
+	font-size:11px;	
+}
+.img_submenu{
+	width:16px;			
+	height:22px;	
+}
+	
+/*  Menu Botao Direito  */
+.rb_frame_menu{
+
+	position:absolute;
+	padding-left:3px;
+	padding-top:4px;
+	padding-right:4px;
+	padding-bottom:5px;
+	z-index:10000000;
+	border:2px outset #eeeeee;
+	cursor:default;	
+	background-color:#D4D0C8;
+}
+.rb_text_frame_menu{
+	font-family:tahoma;
+	font-size:11px;
+}
+.input_min{
+	float:left;
+	width:17px;
+	height:17px;
+	background-image:url(../img/back_button_min.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.input_max{
+	float:left;
+	width:17px;
+	height:17px;
+	background-image:url(../img/back_button_max.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.input_close{
+	float:left;
+	width:17px;
+	height:17px;
+	background-image:url(../img/back_button_close.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+/*DOCK MENU*/
+#dock {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	left: 0px;
+	float:left;
+}
+#dock a:visited{
+	text-decoration: none;
+}
+#dock a{
+	text-decoration: none;
+	margin: -2px;
+}
+#dock img {
+	border: none;
+	width: 0px;
+}
+#legend {
+	float:left;
+	position: absolute;
+	left: 0px;
+	bottom: 15px;
+	width: 100%;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 1em;
+	color: #000;
+}

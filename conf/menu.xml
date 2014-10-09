@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+   Copyright 2008 Jaydson Gomes - RichBlocks  
+   
+   This file is part of the program RichBlocks
+   
+   RichBlocks is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+   
+   **********************************************************************
+   
+   Este arquivo é parte do programa RichBlocks
+   
+   RichBlocks é um software livre: você pode redistribui-lo e/ou
+   modifica-lo dentro dos termos da Licença Pública Geral GNU como 
+   publicada pela Fundação do Software Livre (FSF); na versão 2 da 
+   Licença, ou (na sua opnião) qualquer versão.
+
+   Este programa é distribuido na esperança que possa ser  util, 
+   mas SEM NENHUMA GARANTIA; sem uma garantia implicita de ADEQUAÇÂO a qualquer
+   MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+   Licença Pública Geral GNU para maiores detalhes.
+
+   Você deve ter recebido uma cópia da Licença Pública Geral GNU
+   junto com este programa, se não veja em <http://www.gnu.org/licenses/>.
+-->
+
+<MenuInterfaceRia>
+		
+		<!--RichTools-->
+		<menu name="menu_1" value="RichTools" img="img.png">
+			<option name="option1_menu_1" value="Google" windowTarget="google" img="google.gif" shortcut="Alt+G"></option>
+			<option name="option2_menu_1" value="Plano de Fundo" windowTarget="change_background" img="background_image.png" shortcut="Alt+PI"></option>
+			<option name="option3_menu_1" value="Ajuda" windowTarget="help" img="help.png" shortcut="Alt+H" separator="true"></option>
+			<option name="option4_menu_1" value="Sobre..." windowTarget="sobre" img="rich_blocks_ico.png" shortcut="Alt+S"></option>
+		</menu>
+		
+		<!--DockMenu-->
+		<dockmenu>
+			<option name="dock_option1_menu_1" value="Home" windowTarget="google" img="home.png"></option>
+			<option name="dock_option2_menu_1" value="E-mail" windowTarget="google" img="email.png"></option>
+			<option name="dock_option3_menu_1" value="HIstórico" windowTarget="google" img="history.png"></option>
+			<option name="dock_option4_menu_1" value="Calendário" windowTarget="google" img="calendar.png"></option>
+			<option name="dock_option5_menu_1" value="Links" windowTarget="google" img="link.png"></option>
+			<option name="dock_option6_menu_1" value="Portifolio" windowTarget="google" img="portfolio.png"></option>
+			<option name="dock_option7_menu_1" value="RSS" windowTarget="google" img="rss.png"></option>
+			<option name="dock_option8_menu_1" value="RSS2" windowTarget="google" img="rss.png"></option>
+			<option name="dock_option9_menu_1" value="RSS3" windowTarget="google" img="rss.png"></option>
+			<option name="dock_option10_menu_1" value="RSS4" windowTarget="google" img="rss.png"></option>
+			<option name="dock_option11_menu_1" value="HIstórico2" windowTarget="google" img="history.png"></option>
+			<option name="dock_option12_menu_1" value="Calendário2" windowTarget="google" img="calendar.png"></option>
+			<option name="dock_option13_menu_1" value="Links2" windowTarget="google" img="link.png"></option>
+		</dockmenu>
+		
+</MenuInterfaceRia>

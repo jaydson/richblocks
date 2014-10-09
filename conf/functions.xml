@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<functions>
+	
+	<function name="teste">
+		<![CDATA[
+			alert('Função TEste');
+		]]>
+	</function>
+	
+	<function name="killAllWindows">
+		<![CDATA[
+			alert('Fechar todas as Janelas');
+		]]>
+	</function>
+	
+	<function name="openWindow">
+		<![CDATA[
+			alert('a');
+			buildWindow('change_background');
+			alert('b');
+		]]>
+	</function>
+	
+	<function name="minimize">
+		<![CDATA[
+			alert('a');
+		]]>
+	</function>
+	
+	<function name="showTitleApplication">
+		<![CDATA[
+			if(RB_BAR_APPLICATION_DISPLAY){
+				document.getElementById('frame_bar_top').style.display = 'none';
+				document.getElementById('frame_menu').style.top = '0px';
+				document.getElementById('frame_buttons').style.top = '22px';
+				RB_BAR_APPLICATION_DISPLAY = false;
+			}else{
+				document.getElementById('frame_bar_top').style.display = 'block';
+				document.getElementById('frame_menu').style.top = '22px';
+				document.getElementById('frame_buttons').style.top = '43px';
+				RB_BAR_APPLICATION_DISPLAY = true;
+			}
+			
+		]]>
+	</function>
+	
+	<function name="showShortcutBar">
+		<![CDATA[
+			if(RB_BAR_SHORTCUT_DISPLAY){
+				document.getElementById('frame_buttons').style.display = 'none';
+				RB_BAR_SHORTCUT_DISPLAY = false;
+			}else{
+				document.getElementById('frame_buttons').style.display = 'block';
+				RB_BAR_SHORTCUT_DISPLAY = true;
+			}
+		]]>
+	</function>
+	
+	<function name="showDockMenuBar">
+		<![CDATA[
+			if(RB_BAR_DOCKMENU_DISPLAY){
+				document.getElementById('frame_dock_menu').style.display = 'none';
+				RB_BAR_DOCKMENU_DISPLAY = false;
+			}else{
+				document.getElementById('frame_dock_menu').style.display = 'block';
+				RB_BAR_DOCKMENU_DISPLAY = true;
+			}
+		]]>
+	</function>
+	
+	<function name="organizeIcons">
+		<![CDATA[
+			reloadIcons();
+		]]>
+	</function>
+	
+	<function name="loadPrefs">
+		<![CDATA[
+			//buildWindow('change_background');
+		]]>
+	</function>
+</functions>

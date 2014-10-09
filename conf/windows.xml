@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+   Copyright 2008 Jaydson Gomes - RichBlocks  
+   
+   This file is part of the program RichBlocks
+   
+   RichBlocks is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+   
+   **********************************************************************
+   
+   Este arquivo é parte do programa RichBlocks
+   
+   RichBlocks é um software livre: você pode redistribui-lo e/ou
+   modifica-lo dentro dos termos da Licença Pública Geral GNU como 
+   publicada pela Fundação do Software Livre (FSF); na versão 2 da 
+   Licença, ou (na sua opnião) qualquer versão.
+
+   Este programa é distribuido na esperança que possa ser  util, 
+   mas SEM NENHUMA GARANTIA; sem uma garantia implicita de ADEQUAÇÂO a qualquer
+   MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+   Licença Pública Geral GNU para maiores detalhes.
+
+   Você deve ter recebido uma cópia da Licença Pública Geral GNU
+   junto com este programa, se não veja em <http://www.gnu.org/licenses/>.
+-->
+
+<WindowInterfaceRia>
+
+	<!-- Janelas Padrão -->
+	<window name="change_background"
+			title="Alterar Plano de Fundo"
+			description="Janela para alteração do plano de fundo"
+			defaultTop="100"
+			defaultLeft="300"
+			defaultWidth="300"
+			defaultHeight="400"
+			minWidth="120"
+			minHeight="120" 
+			pageSrc="change_background_image.html"
+			ajax="true"
+			newInstance="false"
+			forceZindex="true"
+			minimize="true"
+			maximize="false"
+			close="true"
+			drag="true"
+			resize="true"
+			posAbsolute="center" 
+			defaultFooter="Alterando Plano de Fundo">
+	</window>	
+	
+	<window name="google"
+			title="Google"
+			description="Google"
+			defaultTop="150"
+			defaultLeft="300"
+			defaultWidth="500"
+			defaultHeight="500"
+			minWidth="120"
+			minHeight="120" 
+			pageSrc="http://www.google.com.br"
+			ajax="false"
+			newInstance="true"
+			forceZindex="true"
+			minimize="true"
+			maximize="true"
+			close="true"
+			drag="true"
+			resize="true"
+			posAbsolute="right" 
+			defaultFooter="Google">
+	</window>	
+	
+	<window name="help"
+		title="Ajuda RichBlocks"
+		description="Ajuda do RichBlocks"
+		defaultTop="120"
+		defaultLeft="250"
+		defaultWidth="500"
+		defaultHeight="500"
+		minWidth="120"
+		minHeight="120" 
+		pageSrc="ajuda.html"
+		ajax="true"
+		newInstance="false"
+		forceZindex="true"
+		minimize="true"
+		maximize="true"
+		close="true"
+		drag="true"
+		resize="false"
+		posAbsolute="right" 
+		defaultFooter="Ajuda">
+	</window>
+	
+	<window name="sobre"
+		title="Sobre o RichBlocks"
+		description="Sobre o RichBlocks"
+		defaultTop="130"
+		defaultLeft="300"
+		defaultWidth="350"
+		defaultHeight="550"
+		minWidth="120"
+		minHeight="120" 
+		pageSrc="sobre.html"
+		ajax="true"
+		newInstance="false"
+		forceZindex="true"
+		minimize="false"
+		maximize="false"
+		close="true"
+		drag="true"
+		resize="false"
+		posAbsolute="none" 
+		defaultFooter="Sobre RichBlocks">
+	</window>
+	
+	<window name="jaydsongomes"
+		title="Jaydson Gomes"
+		description="Jaydson Gomes"
+		defaultTop="130"
+		defaultLeft="300"
+		defaultWidth="800"
+		defaultHeight="600"
+		minWidth="250"
+		minHeight="250" 
+		pageSrc="http://jaydson.blogspot.com"
+		ajax="false"
+		newInstance="true"
+		forceZindex="true"
+		minimize="true"
+		maximize="true"
+		close="true"
+		drag="true"
+		resize="true"
+		posAbsolute="none" 
+		defaultFooter="Jaydson Gomes Blog">
+	</window>
+	
+</WindowInterfaceRia>

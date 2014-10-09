@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<windowRightButtonMenu>
+		<menu name="menu_1" windowReference="change_background">
+			<option name="option1_menu1" value="Minimizar" functionTarget="minimize" img="img.png"></option>
+			<option name="option2_menu1" value="Maximizar" functionTarget="open_project" img="img.png" separator="true"></option>
+			<option name="option3_menu1" value="Fechar" functionTarget="saveProject" img="img.png" separator="true"></option>
+		</menu>
+		
+		<menu name="menu_2" windowReference="google">
+			<option name="option1_menu2" value="Preferenciasinhas" windowTarget="config_pref" img="img.png" separator="true"></option>
+			<option name="option2_menu2" value="Format" windowTarget="format" img="img.png"></option>
+		</menu>
+		
+		<menu name="menu_3" windowReference="sobre">
+			<option name="option1_menu3" value="Preferenciasinhas do Joao" windowTarget="config_pref" img="img.png"></option>
+			<option name="option2_menu3" value="Formatar" windowTarget="format" img="img.png"></option>
+			<option name="option3_menu3" value="FormatarFotar" windowTarget="format" img="img.png"></option>
+			<option name="option4_menu3" value="Formataatar" windowTarget="format" img="img.png"></option>
+			<option name="option5_menu3" value="Formarmatar" windowTarget="format" img="img.png"></option>
+		</menu>
+</windowRightButtonMenu>

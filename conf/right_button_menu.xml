@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rightButtonMenu>
+	
+		<!--Botão direito na barra superior-->
+		<menu name="menu_1" frameReference="frame_menu">
+			<option name="option1_menu1" value="Exibir/Ocultar Título da Aplicação" functionTarget="showTitleApplication" img="visto.gif"></option>
+			<option name="option3_menu1" value="Exibir/Ocultar Barra de Atalhos" functionTarget="showShortcutBar" img="visto.gif"></option>
+			<option name="option2_menu1" value="Exibir/Ocultar DockMenu" functionTarget="showDockMenuBar" img="visto.gif" separator="true"></option>
+			<option name="option4_menu1" value="Sair" functionTarget="closeProject" img="img.png"></option>
+		</menu>
+		
+		
+		<!--Botão direito no conteudo-->
+		<menu name="menu_3" frameReference="frame_properties">
+			<option name="option1_menu1"  value="Google"  windowTarget="google"  img="google.gif"></option>
+			<option name="option1_menu3" value="Alterar plano de fundo" windowTarget="change_background" img="background_image.png"></option>
+			<option name="option1_menu3"  value="Ajuda"  windowTarget="help"  img="help.png" separator="true"></option>
+			<option name="option1_menu3"  value="Sobre..."  windowTarget="sobre"  img="rich_blocks_ico.png"></option>
+			<option name="option1_menu3"  value="Organizar Icones"  functionTarget="organizeIcons"  img="mini_browser.png"></option>
+		</menu>
+</rightButtonMenu>
