@@ -20,7 +20,6 @@
 
 <WindowInterfaceRia>
 
-	<!-- Janelas Padrão -->
 	<window name="change_background"
 			title="Alterar Plano de Fundo"
 			description="Janela para alteração do plano de fundo"
