@@ -3,7 +3,7 @@
 	
 		
 		<menu name="menu_1" frameReference="frame_menu">
-			<option name="option1_menu1" value="Exibir/Ocultar Título da Aplicacao" functionTarget="showTitleApplication" img="visto.gif"></option>
+			<option name="option1_menu1" value="Exibir/Ocultar Titulo da Aplicacao" functionTarget="showTitleApplication" img="visto.gif"></option>
 			<option name="option3_menu1" value="Exibir/Ocultar Barra de Atalhos" functionTarget="showShortcutBar" img="visto.gif"></option>
 			<option name="option2_menu1" value="Exibir/Ocultar DockMenu" functionTarget="showDockMenuBar" img="visto.gif" separator="true"></option>
 			<option name="option4_menu1" value="Sair" functionTarget="closeProject" img="img.png"></option>

@@ -41,8 +41,8 @@
 			<option name="dock_option8_menu_1" value="RSS2" windowTarget="google" img="rss.png"></option>
 			<option name="dock_option9_menu_1" value="RSS3" windowTarget="google" img="rss.png"></option>
 			<option name="dock_option10_menu_1" value="RSS4" windowTarget="google" img="rss.png"></option>
-			<option name="dock_option11_menu_1" value="HIstórico2" windowTarget="google" img="history.png"></option>
-			<option name="dock_option12_menu_1" value="Calendário2" windowTarget="google" img="calendar.png"></option>
+			<option name="dock_option11_menu_1" value="HIstorico2" windowTarget="google" img="history.png"></option>
+			<option name="dock_option12_menu_1" value="Calendario2" windowTarget="google" img="calendar.png"></option>
 			<option name="dock_option13_menu_1" value="Links2" windowTarget="google" img="link.png"></option>
 		</dockmenu>
 		
