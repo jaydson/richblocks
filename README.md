@@ -25,4 +25,4 @@ https://code.google.com/archive/p/richblocks/
 
 PDF do trabalho final:
 RichBlocks - Um Framework para Implantar Interfaces RIA em Sistemas Web  
-RichBlocks - Um Framework para implantar interfaces RIA em Sistemas Web.pdf
+https://github.com/jaydson/richblocks/blob/master/RichBlocks%20-%20Um%20Framework%20para%20implantar%20interfaces%20RIA%20em%20Sistemas%20Web.pdf
